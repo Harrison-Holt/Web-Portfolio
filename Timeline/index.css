@@ -1,0 +1,122 @@
+body {
+    overflow-x: hidden;
+}
+
+header, footer {
+    display: flex; 
+    flex-direction: row;
+    align-items: center;
+    background-color: #343a40;
+    color: #ffffff; 
+}
+
+h1, h2, h3 {
+    font-family: 'Lora', serif;
+}
+
+p {
+    font-family: 'Nunito', sans-serif;
+}
+
+main {
+    background-color: #f8f9fa;
+}
+
+.intro {
+    padding: 50px; /* Increase padding for breathing room */
+    margin: 20px 0; /* Add vertical space */
+    max-width: 900px; /* Constrain content width for readability */
+    text-align: center; /* Center-align the text */
+    line-height: 1.8; /* Improve line spacing for better readability */
+    box-sizing: border-box; /* Include padding in dimensions */
+}
+.intro h2 {
+    margin-bottom: 20px; /* Add space below the heading */
+}
+.intro p {
+    font-family: 'Nunito', sans-serif; /* Readable body font */
+    font-size: 18px; /* Slightly larger font for readability */
+    margin-bottom: 20px; /* Add space below each paragraph */
+}
+.intro ul {
+    text-align: left; /* Align lists to the left for better readability */
+    margin: 20px auto; /* Center the list container */
+    padding: 0 20px; /* Add padding for consistent spacing */
+    max-width: 800px; /* Constrain the width */
+}
+.intro ul li {
+    margin-bottom: 15px; /* Add space between list items */
+    line-height: 1.6; /* Improve spacing within list items */
+}
+.settings-btn {
+    cursor: pointer;
+    font-weight: bold; /* Make the text bold */
+    background-color: #006CE0; /* Primary blue */
+    color: #fff; 
+}
+
+.settings-btn:hover {
+    color: #fff; 
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+/* Start Button Styling */
+.start-button {
+    background-color: #006CE0; /* Primary blue */
+    color: #ffffff; /* White text */
+    border: none; /* No border for a clean look */
+    padding: 15px 30px; /* Add padding for size */
+    font-size: 18px; /* Larger font for emphasis */
+    font-family: 'Nunito', sans-serif; /* Match body font */
+    font-weight: bold; /* Make the text bold */
+    border-radius: 8px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: all 0.3s ease; /* Smooth hover transition */
+    text-transform: uppercase; /* Make text uppercase */
+}
+
+/* Hover Effect */
+.start-button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+    transform: translateY(-2px); /* Slight lift effect */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add shadow on hover */
+}
+
+.start-button:focus {
+    outline: 4px solid #ffc107; /* Highlight outline for focus */
+    outline-offset: 2px;
+}
+
+
+/* Timeline page CSS */ 
+
+
+#cards {
+    width: 200px; 
+    height: 200px; 
+}
+
+      /* Styling for main line */
+      .line {
+        height: 4px;
+        background-color: #006CE0;
+        margin: 20px auto;
+    }
+
+    /* Styling for vertical lines */
+    .vertical-line {
+        width: 2px;
+        height: 50px;
+        background-color: #006CE0;
+        margin: 0 auto;
+    }
+
+    /* Card hover effect */
+    .card:hover {
+        transform: scale(1.05);
+        transition: transform 0.3s ease;
+    }
+
+    #row-6 {
+        margin-top: 30px; 
+    }
